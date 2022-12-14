@@ -1,0 +1,38 @@
+header {
+  height: 60vh;
+  width: 100%;
+  color: white;
+  background-image: url("../../../public/assets/images/CTL_info_cocina_redu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .header-box {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .header-box-content {
+      height: 30vh;
+      width: 30vw;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 140px;
+
+      .header-box-content-logo {
+        img {
+          height: 8vh;
+        }
+      }
+
+      .header-box-content-buttons {
+        display: flex;
+        width: 25vw;
+        justify-content: space-between;
+      }
+    }
+  }
+}
