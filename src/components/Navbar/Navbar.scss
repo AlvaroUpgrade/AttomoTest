@@ -20,5 +20,25 @@ nav {
       color: white;
       text-decoration: none;
     }
+
+    a:nth-child(5) {
+      color: white;
+      background-color: #a6bf9d;
+      padding: 3px;
+      width: 10vw;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    a:nth-child(6) {
+      color: white;
+      padding: 2px;
+      width: 10vw;
+      border: 2px solid white;
+      border-radius: 20px;
+
+      text-decoration: none;
+    }
   }
 }

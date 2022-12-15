@@ -15,6 +15,7 @@ const Header = () => {
             <button>Contáctanos</button>
             <button>Reserva Ya</button>
           </div>
+          <div className="header-box-content-arrowIcon"></div>
         </div>
       </div>
     </header>

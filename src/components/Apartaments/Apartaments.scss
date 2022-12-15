@@ -1,0 +1,68 @@
+.apartaments-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+
+  h1 {
+    font-family: "Expletus Sans", cursive;
+    font-size: 70px;
+    color: #a6bf9d;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+
+  .apartaments-box-Searcher {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+
+    .apartaments-box-Searcher-filters {
+      display: flex;
+      align-items: center;
+
+      input {
+        height: 2.5vh;
+        width: 25vw;
+        border-radius: 30px;
+        padding: 12px;
+        margin-right: 20px;
+        border: none;
+        background-color: #f0f4ef;
+      }
+
+      input::placeholder {
+        color: #7d9077;
+        font-weight: bold;
+      }
+
+      button:nth-child(3) {
+        border: none;
+        height: 6vh;
+        width: 12vh;
+        color: #7d9077;
+        font-weight: bold;
+        background-color: #f0f4ef;
+        cursor: pointer;
+      }
+
+      button:nth-child(4) {
+        border: none;
+        background-color: white;
+        padding-left: 40px;
+        cursor: pointer;
+        height: 5vh;
+
+        img {
+          height: 25px;
+        }
+      }
+    }
+
+    .apartaments-box-Searcher-showMapButton {
+      display: flex;
+    }
+  }
+}

@@ -6,6 +6,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
   .header-box {
     height: 50vh;
@@ -20,7 +21,7 @@ header {
       justify-content: space-around;
       align-items: center;
       flex-direction: column;
-      margin-top: 140px;
+      margin-top: 100px;
 
       .header-box-content-logo {
         img {
@@ -30,8 +31,19 @@ header {
 
       .header-box-content-buttons {
         display: flex;
-        width: 25vw;
+        width: 30vw;
         justify-content: space-between;
+
+        button {
+          font-size: 16px;
+          color: white;
+          background-color: #a6bf9d;
+          padding: 12px;
+          width: 12vw;
+          border: none;
+          border-radius: 20px;
+          cursor: pointer;
+        }
       }
     }
   }
