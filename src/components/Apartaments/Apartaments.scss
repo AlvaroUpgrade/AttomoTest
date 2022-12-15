@@ -40,8 +40,8 @@
 
       button:nth-child(3) {
         border: none;
-        height: 6vh;
-        width: 12vh;
+        height: 8vh;
+        width: 15vh;
         color: #7d9077;
         font-weight: bold;
         background-color: #f0f4ef;
@@ -68,10 +68,10 @@
 
   .apartaments-box-cards {
     display: flex;
-    align-items: center;
+    // align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height: 100vh;
+
     width: 100%;
 
     .apartaments-box-cards-eachCard {
@@ -80,6 +80,7 @@
       width: 80vh;
       border-radius: 20px;
       background-color: #f0f4ef;
+      margin: 40px;
 
       .eachCard-image {
         border-top-left-radius: 20px;
@@ -96,6 +97,7 @@
           display: flex;
           align-items: center;
           text-align: start;
+
           h5 {
             width: 16vw;
             color: #bdbdbd;
@@ -160,5 +162,18 @@
         }
       }
     }
+  }
+
+  button {
+    font-size: 17px;
+    color: white;
+    background-color: #a6bf9d;
+    padding: 10px;
+    width: 7vw;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 }

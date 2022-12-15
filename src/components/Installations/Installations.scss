@@ -1,0 +1,62 @@
+.installations-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .installations-box-content {
+    width: 90%;
+    margin-bottom: 50px;
+    .installations-box-content-titleAndDesc {
+      h1 {
+        font-family: "Expletus Sans", cursive;
+        font-size: 70px;
+        color: #a6bf9d;
+        margin: 0;
+        margin-bottom: 50px;
+      }
+
+      .installations-box-content-titleAndDesc-desc {
+        margin-bottom: 70px;
+        p {
+          line-height: 10px;
+        }
+      }
+    }
+
+    .installations-box-content-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h3 {
+        color: #a6bf9d;
+      }
+      a {
+        font-size: 12px;
+        text-decoration: none;
+        color: black;
+        height: 2vh;
+      }
+    }
+
+    .installations-box-content-cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .installations-box-cards-eachCard {
+        width: 20vw;
+        height: 55vh;
+        border: 2px solid lightgray;
+        border-radius: 30px;
+        margin: 10px;
+        box-sizing: border-box;
+
+        .installations-box-cards-eachCard-text {
+          text-align: start;
+          margin-left: 40px;
+        }
+      }
+    }
+  }
+}
