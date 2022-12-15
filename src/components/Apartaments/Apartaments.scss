@@ -65,4 +65,100 @@
       display: flex;
     }
   }
+
+  .apartaments-box-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+
+    .apartaments-box-cards-eachCard {
+      display: flex;
+      height: 40vh;
+      width: 80vh;
+      border-radius: 20px;
+      background-color: #f0f4ef;
+
+      .eachCard-image {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+      }
+      .apartaments-box-cards-eachCard-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 30px;
+
+        .apartaments-box-cards-eachCard-content-desc {
+          display: flex;
+          align-items: center;
+          text-align: start;
+          h5 {
+            width: 16vw;
+            color: #bdbdbd;
+          }
+          img {
+            height: 4vh;
+            padding-left: 40px;
+          }
+        }
+
+        h3 {
+          margin: 0;
+          text-align: start;
+          width: 20vw;
+          color: #7d9077;
+          font-size: 20px;
+        }
+
+        .apartaments-box-cards-eachCard-content-details {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          color: #7d9077;
+
+          .details-image {
+            height: 3vh;
+          }
+        }
+
+        .apartaments-box-cards-eachCard-content-moreDetails {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-end;
+
+          .apartaments-box-cards-eachCard-content-moreDetails-disp {
+            height: 10vh;
+            line-height: 1px;
+            text-align: start;
+            #disp {
+              color: #bdbdbd;
+            }
+
+            h5 {
+              color: #7d9077;
+            }
+          }
+
+          .apartaments-box-cards-eachCard-content-moreDetails-price {
+            height: 10vh;
+            line-height: 1px;
+            margin-right: 25px;
+            text-align: start;
+            h4 {
+              font-weight: bold;
+              color: #7d9077;
+            }
+
+            h5 {
+              color: #616161;
+            }
+          }
+        }
+      }
+    }
+  }
 }

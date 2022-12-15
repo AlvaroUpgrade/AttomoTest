@@ -20,18 +20,44 @@ const Apartaments = () => {
             <p>Show map</p>
           </div>
         </div>
-        <div className="ubications-box-cards">
-          <div className="ubications-box-cards-eachCard">
-            <h3>BARCELONA</h3>
-            <button>Ver más</button>
-          </div>
-          <div className="ubications-box-cards-eachCard">
-            <h3>MADRID</h3>
-            <button>Ver más</button>
-          </div>
-          <div className="ubications-box-cards-eachCard">
-            <h3>BILBAO</h3>
-            <button>Ver más</button>
+        <div className="apartaments-box-cards">
+          <div className="apartaments-box-cards-eachCard">
+            <img className="eachCard-image"
+              src="/assets/images/apartament1.png"
+              alt="ApartamentImage"
+            ></img>
+
+            <div className="apartaments-box-cards-eachCard-content">
+              <div className="apartaments-box-cards-eachCard-content-desc">
+                <h5>Habitación privada — Madrid, Centro</h5>
+                <img src="/assets/icons/heart.png" alt="HeartIcon"></img>
+              </div>
+              <h3>Calle Atocha 66 3º Izq</h3>
+              <div className="apartaments-box-cards-eachCard-content-details">
+              <img className="details-image" src="/assets/icons/bed.png" alt="BedIcon"></img>
+                <div>
+                  <p>8 habs</p>
+                </div>
+              <img className="details-image" src="/assets/icons/map.png" alt="MapIcon"></img>
+                <div>
+                  <p> 9 sqm.</p>
+                </div>
+              <img className="details-image" src="/assets/icons/stairs.png" alt="StairsIcon"></img>
+                <div>
+                  <p>3er Piso</p>
+                </div>
+              </div>
+              <div className="apartaments-box-cards-eachCard-content-moreDetails">
+                <div className="apartaments-box-cards-eachCard-content-moreDetails-disp">
+                  <h5 id="disp">Disponible desde</h5>
+                  <h5>2 Dic 2022</h5>
+                </div>
+                <div className="apartaments-box-cards-eachCard-content-moreDetails-price">
+                  <h4>€ 600</h4>
+                  <h5>/ mes</h5>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
