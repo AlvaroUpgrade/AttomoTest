@@ -1,0 +1,24 @@
+.footer-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+  background-color: #7d9077;
+
+  .footer-box-list {
+    height: 35vh;
+    width: 25vw;
+    border: 2px solid red;
+  }
+  .footer-box-iconsAndDesc {
+    height: 35vh;
+    width: 25vw;
+    border: 2px solid red;
+  }
+  .footer-box-moreInfo {
+    height: 35vh;
+    width: 25vw;
+    border: 2px solid red;
+  }
+}

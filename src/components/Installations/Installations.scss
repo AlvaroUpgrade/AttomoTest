@@ -45,13 +45,17 @@
       flex-wrap: wrap;
 
       .installations-box-cards-eachCard {
-        width: 20vw;
+        width: 40vh;
         height: 55vh;
-        border: 2px solid lightgray;
+        border: 4px solid lightgray;
         border-radius: 30px;
         margin: 10px;
-        box-sizing: border-box;
-
+        
+        
+        img {
+            width: 100%;
+           
+        }
         .installations-box-cards-eachCard-text {
           text-align: start;
           margin-left: 40px;

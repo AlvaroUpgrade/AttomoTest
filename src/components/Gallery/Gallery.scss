@@ -1,0 +1,26 @@
+.gallery-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .gallery-box-titleAndDesc {
+    h1 {
+      font-family: "Expletus Sans", cursive;
+      font-size: 70px;
+      color: #a6bf9d;
+      margin: 0;
+      margin-bottom: 50px;
+    }
+
+    p {
+      line-height: 10px;
+    }
+  }
+  .gallery-box-cards {
+    display: flex;
+    justify-content: center;
+
+    .gallery-box-cards-eachCard {
+      margin: 10px;
+    }
+  }
+}
