@@ -45,7 +45,7 @@
       flex-wrap: wrap;
 
       .installations-box-cards-eachCard {
-        width: 40vh;
+        width: 43vh;
         height: 55vh;
         border: 4px solid lightgray;
         border-radius: 30px;
@@ -58,7 +58,12 @@
         }
         .installations-box-cards-eachCard-text {
           text-align: start;
+          width: 80%;
           margin-left: 40px;
+
+          h4 {
+            color: #a6bf9d;
+          }
         }
       }
     }

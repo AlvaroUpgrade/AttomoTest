@@ -2,6 +2,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  width: 100%;
+
   .gallery-box-titleAndDesc {
     h1 {
       font-family: "Expletus Sans", cursive;
@@ -17,6 +19,8 @@
   }
   .gallery-box-cards {
     display: flex;
+    height: 45vh;
+    width: 100%;
     justify-content: center;
 
     .gallery-box-cards-eachCard {

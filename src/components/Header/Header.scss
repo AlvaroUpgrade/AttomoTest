@@ -1,5 +1,5 @@
 header {
-  height: 60vh;
+  height: 80vh;
   width: 100%;
   color: white;
   background-image: url("../../../public/assets/images/CTL_info_cocina_redu.png");
@@ -15,17 +15,16 @@ header {
     align-items: center;
 
     .header-box-content {
-      height: 30vh;
+      height: 60vh;
       width: 30vw;
       display: flex;
       justify-content: space-around;
       align-items: center;
       flex-direction: column;
-      margin-top: 100px;
-
+      margin-top: 400px;
       .header-box-content-logo {
         img {
-          height: 8vh;
+          height: 9vh;
         }
       }
 
@@ -33,7 +32,7 @@ header {
         display: flex;
         width: 30vw;
         justify-content: space-between;
-
+        
         button {
           font-size: 16px;
           color: white;

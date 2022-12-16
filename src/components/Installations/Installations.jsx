@@ -37,40 +37,42 @@ const Installations = () => {
             </div>
             <div className="installations-box-cards-eachCard">
               <img
-                src="/assets/images/installations1.png"
+                src="/assets/images/installations2.png"
                 alt="InstallationsImage"
               ></img>
               <div className="installations-box-cards-eachCard-text">
-                <h4>Registro sencillo</h4>
+                <h4>Apartamentos amueblados</h4>
                 <p>
-                  Un registro rápido y sin complicaciones. Encuentra la vivienda
-                  que te gusta, solicítala y regístrate con un clic.
+                  Todos nuestros apartamentos están completamente amueblados y
+                  listos para ser habitados. Trae tus cosas, nosotros nos
+                  encargamos del resto.
                 </p>
               </div>
             </div>
             <div className="installations-box-cards-eachCard">
               <img
-                src="/assets/images/installations1.png"
+                src="/assets/images/installations3.png"
                 alt="InstallationsImage"
               ></img>
               <div className="installations-box-cards-eachCard-text">
-                <h4>Registro sencillo</h4>
+                <h4>Todos los gastos incluidos</h4>
                 <p>
-                  Un registro rápido y sin complicaciones. Encuentra la vivienda
-                  que te gusta, solicítala y regístrate con un clic.
+                  Sin sorpresas, todos los gastos están incluidos en el
+                  alquiler. Facturas, internet, manutención, lo que quieras.
                 </p>
               </div>
             </div>
             <div className="installations-box-cards-eachCard">
               <img
-                src="/assets/images/installations1.png"
+                src="/assets/images/installations4.png"
                 alt="InstallationsImage"
               ></img>
               <div className="installations-box-cards-eachCard-text">
-                <h4>Registro sencillo</h4>
+                <h4>Eventos de la comunidad</h4>
                 <p>
-                  Un registro rápido y sin complicaciones. Encuentra la vivienda
-                  que te gusta, solicítala y regístrate con un clic.
+                  Conferencias, clases de yoga, noches de bar y mucho más. Únete
+                  a nuestras reuniones comunitarias, todo corre de nuestra
+                  cuenta.
                 </p>
               </div>
             </div>

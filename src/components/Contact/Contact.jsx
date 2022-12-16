@@ -33,6 +33,7 @@ const Contact = () => {
             <p>Mensaje</p>
             <input id="message" type="text"></input>
           </label>
+
           <button>Enviar Solicitud</button>
         </div>
       </div>

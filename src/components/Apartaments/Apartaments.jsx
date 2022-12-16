@@ -93,7 +93,7 @@ const Apartaments = () => {
                   alt="BedIcon"
                 ></img>
                 <div>
-                  <p>8 habs</p>
+                  <p>5 habs</p>
                 </div>
                 <img
                   className="details-image"
@@ -101,7 +101,7 @@ const Apartaments = () => {
                   alt="MapIcon"
                 ></img>
                 <div>
-                  <p> 9 sqm.</p>
+                  <p> 11 sqm.</p>
                 </div>
                 <img
                   className="details-image"
@@ -109,7 +109,7 @@ const Apartaments = () => {
                   alt="StairsIcon"
                 ></img>
                 <div>
-                  <p>3er Piso</p>
+                  <p>4o Piso</p>
                 </div>
               </div>
               <div className="apartaments-box-cards-eachCard-content-moreDetails">
@@ -118,7 +118,7 @@ const Apartaments = () => {
                   <h5>2 Dic 2022</h5>
                 </div>
                 <div className="apartaments-box-cards-eachCard-content-moreDetails-price">
-                  <h4>€ 600</h4>
+                  <h4>€ 750</h4>
                   <h5>/ mes</h5>
                 </div>
               </div>
@@ -195,7 +195,7 @@ const Apartaments = () => {
                   alt="BedIcon"
                 ></img>
                 <div>
-                  <p>8 habs</p>
+                  <p>5 habs</p>
                 </div>
                 <img
                   className="details-image"
@@ -203,7 +203,7 @@ const Apartaments = () => {
                   alt="MapIcon"
                 ></img>
                 <div>
-                  <p> 9 sqm.</p>
+                  <p> 11 sqm.</p>
                 </div>
                 <img
                   className="details-image"
@@ -211,7 +211,7 @@ const Apartaments = () => {
                   alt="StairsIcon"
                 ></img>
                 <div>
-                  <p>3er Piso</p>
+                  <p>4o Piso</p>
                 </div>
               </div>
               <div className="apartaments-box-cards-eachCard-content-moreDetails">
@@ -220,7 +220,7 @@ const Apartaments = () => {
                   <h5>2 Dic 2022</h5>
                 </div>
                 <div className="apartaments-box-cards-eachCard-content-moreDetails-price">
-                  <h4>€ 600</h4>
+                  <h4>€ 750</h4>
                   <h5>/ mes</h5>
                 </div>
               </div>
@@ -297,7 +297,7 @@ const Apartaments = () => {
                   alt="BedIcon"
                 ></img>
                 <div>
-                  <p>8 habs</p>
+                  <p>5 habs</p>
                 </div>
                 <img
                   className="details-image"
@@ -305,7 +305,7 @@ const Apartaments = () => {
                   alt="MapIcon"
                 ></img>
                 <div>
-                  <p> 9 sqm.</p>
+                  <p> 11 sqm.</p>
                 </div>
                 <img
                   className="details-image"
@@ -313,7 +313,7 @@ const Apartaments = () => {
                   alt="StairsIcon"
                 ></img>
                 <div>
-                  <p>3er Piso</p>
+                  <p>4o Piso</p>
                 </div>
               </div>
               <div className="apartaments-box-cards-eachCard-content-moreDetails">
@@ -322,7 +322,7 @@ const Apartaments = () => {
                   <h5>2 Dic 2022</h5>
                 </div>
                 <div className="apartaments-box-cards-eachCard-content-moreDetails-price">
-                  <h4>€ 600</h4>
+                  <h4>€ 750</h4>
                   <h5>/ mes</h5>
                 </div>
               </div>
