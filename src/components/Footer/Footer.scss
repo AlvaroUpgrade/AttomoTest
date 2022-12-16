@@ -2,23 +2,108 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 50vh;
+  height: 45vh;
   width: 100%;
   background-color: #7d9077;
 
-  .footer-box-list {
+  .footer-box-lists {
+    display: flex;
+    justify-content: center;
     height: 35vh;
     width: 25vw;
-    border: 2px solid red;
+
+    .footer-box-lists-eachList {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 50%;
+
+      h3 {
+        color: rgba(255, 255, 255, 0.781);
+        font-weight: 100;
+        text-align: start;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        text-align: start;
+        a {
+          color: rgba(255, 255, 255, 0.459);
+          font-weight: 100;
+          text-decoration: none;
+        }
+      }
+    }
   }
   .footer-box-iconsAndDesc {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
     height: 35vh;
     width: 25vw;
-    border: 2px solid red;
+
+    .footer-box-iconsAndDesc-icons {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+    }
+
+    .footer-box-iconsAndDesc-desc {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      line-height: 0.1px;
+
+      .footer-box-iconsAndDesc-desc-moreInfo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+
+        a {
+          font-weight: 100;
+          text-decoration: none;
+          color: rgba(255, 255, 255, 0.459);
+        }
+
+        p {
+          color: rgba(255, 255, 255, 0.459);
+        }
+      }
+      .footer-box-iconsAndDesc-desc-attomo {
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+        font-weight: 100;
+        color: rgba(255, 255, 255, 0.459);
+
+        #special {
+          color: white;
+          font-weight: 400;
+        }
+      }
+      .footer-box-iconsAndDesc-desc-ad {
+        margin-top: 30px;
+        p {
+          font-weight: 100;
+          color: rgba(255, 255, 255, 0.459);
+        }
+      }
+    }
   }
   .footer-box-moreInfo {
-    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    line-height: 0.1px;
+    height: 30vh;
     width: 25vw;
-    border: 2px solid red;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.459);
   }
 }
